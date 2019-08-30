@@ -9,3 +9,13 @@ Next, need the python libraries.  Do "sudo apt-get install python-smbus i2c-tool
 Then "sudo reboot" to make the pins available.
 
 (note:  matrix is still available at this point.)
+
+# command line test
+Connect up your i2c device, and run:  
+sudo i2cdetect -y 1  
+
+That should list out the addresses that i2c device uses.
+
+bus 1 uses pins 3 and 5 for SDA and SCL
+
+
