@@ -16,6 +16,6 @@ sudo i2cdetect -y 1
 
 That should list out the addresses that i2c device uses.
 
-bus 1 uses pins 3 and 5 for SDA and SCL
+bus 1 uses pins 3 and 5 for SDA and SCL. 
 
-
+Can also use i2cget and i2cset...but man those to see usage.
