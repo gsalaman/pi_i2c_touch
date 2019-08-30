@@ -19,3 +19,6 @@ That should list out the addresses that i2c device uses.
 bus 1 uses pins 3 and 5 for SDA and SCL. 
 
 Can also use i2cget and i2cset...but man those to see usage.
+
+# touchpot manual
+https://cdn.sparkfun.com/assets/learn_tutorials/1/8/8/touch_pot_sf_1_4.pdf
